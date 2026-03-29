@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/cards.js"></script>
+    <script src="./js/horse.js"></script>
+    <script src="./js/revolver.js"></script>
+    <script src="./js/draganddrop.js"></script>
+    <script src="./js/wanted.js"></script>
+    <script src="./js/words.js"></script>
+    <script src="./js/answer.js"></script>
+    <title>Totemica</title>
+</head>
+<body>
+    <div class="header">
+        <div class="newsnumber">
+            <div class="news">
+                <p>Новости дикого запада</p>
+            </div>
+            <div class="number">
+                <p>Выпуск 94820</p>
+            </div>
+        </div>
+        <div class="title mob">
+            <p> Totemica </p>
+        </div>
+        <div class="titlebox">
+            <div class="cactusleft">
+                <img src="img/cactus1.png">
+            </div>
+                <div class="line"></div>
+            <div class="title desk">
+                <p> Totemica </p>
+            </div>
+            <div class="cactusright">
+                <img src="img/cactus2.png">
+            </div>
+        </div>
+    </div>
+    <div class="sections">
+        <div class="row">
+            <div class="col">
+                <div class="cardscontainer">
+                    <img src="img/cardsframe.svg" class="cardframe">
+                    <p class="cardtext">Вытянете карту с туром</p>
+                    <div class="cardswrapper">
+                        <img src="img/card.png" class="cardimage card1">
+                        <img src="img/card.png" class="cardimage card2">
+                        <img src="img/card.png" class="cardimage card3">
+                        <img src="img/card.png" class="cardimage card4">
+                        <img src="img/card.png" class="cardimage card5">
+                    </div>
+                </div>
+                <div class="facts">
+                    <div class="factscontainer">
+                        <img src="img/factsframe1.png" class="factsframe">
+                        <p>Кантри и русская народная песнь <br> схожи глубокой эмоциональной <br> амплитудой, а также общими <br> архетипическими сюжетами.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="wantedcontainer">
+                <div class="wantedtitle">
+                    <p>РАЗЫСКИВАЕТСЯ!</p>
+                </div>
+                <div class="wanted">
+                    <img src="img/money.png" class="money">
+                    <img src="img/wanted.png" class="wantedimg" id="wanted">
+                </div>
+                <div class="descrition">
+                    <p>Неизвестный, рост 5’10, вес 154 фунта. Темные <br> волосы, носит очки и шлюпу Stetson. О любой <br> информации сообщайте шерифу. Награда :</p>
+                </div>
+                <div class="reward">
+                    <p>1.000.000$</p>
+                </div>
+            </div>
+            <div class="questioncontainer">
+                <div class="questiontitle">
+                    <p>Отгадайте загадку:</p>
+                </div>
+                <div class="questiondescription">
+                    <p>Белый камушек растаял, <br> на доске следы оставил.</p>
+                </div>
+                <div class="answercontainer">
+                    <div class="answer">
+                        <p>Ответ: <input type="text" class="answerinput"></p>
+                    </div>
+                    <div class="check">
+                        <img src="img/correct.svg" class="correct">
+                        <img src="img/wrong.svg" class="wrong">
+                    </div>
+                </div>
+            </div>
+            <div class="tourscontainer">
+                <div class="tourscontent">
+                    <h3>Туры в дикий запад</h3>
+                    <p>+79275469020</p>
+                </div>
+            </div>
+        </div>
+        <div class="containers">
+            <div class="double1">
+                <div class="attentioncontainer">
+                    <img src="img/attentionframe.svg" class="attentionframe">
+                    <p class="attentiontitle">Внимание!</p>
+                    <p class="attentiontext">Найден редкий вид кактуса : <br> “Аризонский  радужный <br class="tab"> кактус”. <br class="desk"> Его обнаружил Джон <br class="tab"> Нельсон <br class="desk"> и сообщил о редком <br class="tab"> растении <br class="desk"> местному шерифу. </p>
+                </div>
+                <div class="horsecontainer">
+                    <img src="img/horseframe.png" class="horseframe">
+                    <img src="img/horse.png" class="horseimage">
+                    <div class="dialogcontainer">
+                    <img src="img/dialog.png" class="dialogimage">
+                    <p>Кликай!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="shootingcontainer">
+                <div class="labelgun">
+                    <p>Нажимай на курок</p>
+                </div>
+                <div class="gun">
+                    <img src="img/revolver.png" class="revolver" id="gun">
+                </div>
+                <div class="bulletcontainer">
+                    <img src="img/bullet.png" class="bullet">
+                </div>
+                <div class="target">
+                    <img src="img/mishen.png">
+                </div>
+                <img src="img/hole.svg" class="hole hole1">
+                <img src="img/hole.svg" class="hole hole2">
+                <img src="img/hole.svg" class="hole hole3">
+                <img src="img/hole.svg" class="hole hole4">
+                <div class="counter">
+                    <p>Счетчик: <span id="countershots">4</span></p>
+                </div>
+            </div>
+        <div class="double2">
+            <div class="row2">
+                <div class="instructorcontainer">
+                    <img src="img/instframe.svg" class="instructorframe">
+                    <p>Ищем инструктора <br> по верховой езде </p>
+                    <span class="phone">+7(967) 446 09 08</span>
+                </div>
+                <div class="bootcontainer">
+                    <img src="img/bootframe.svg" class="bootframe">
+                    <p> Выбери свою шпору </p>
+                    <img src="img/boot.png" class="boot">
+                    <div class="shpcontainer">
+                        <img src="img/shpora1.png" class="shpora shpora1">
+                        <img src="img/shpora2.png"class="shpora shpora2">
+                        <img src="img/shpora3.png" class="shpora shpora3">
+                        <img src="img/shpora4.png" class="shpora shpora4">
+                    </div>
+                </div>
+            </div>
+            <div class="wordscontainer">
+                <div class="wordsbox">
+                    <img src="img/wordframe.svg" class="wordsframe">
+                    <div class="wordtitle">
+                        <h3>Найди слова </h3>
+                    </div>
+                    <div class="restartbutton">
+                        <img src="img/restart.svg" class="restart" id="restart">
+                    </div>
+                </div>
+                <div class="letters-grid">
+                    <div class="letter">Ш</div>
+                    <div class="letter">В</div>
+                    <div class="letter">О</div>
+                    <div class="letter">Ц</div>
+                    <div class="letter">Ы</div>
+                    <div class="letter">Б</div>
+                    <div class="letter">Г</div>
+                    <div class="letter">З</div>
+                    <div class="letter">А</div>
+                    <div class="letter">Х</div>
+                    <div class="letter">Э</div>
+                    <div class="letter">Й</div>
+                    <div class="letter">Е</div>
+                    <div class="letter" id="part">К</div>
+                    <div class="letter" id="part">Ш</div>
+                    <div class="letter" id="part">Л</div>
+                    <div class="letter" id="part">Я</div>
+                    <div class="letter" id="part">П</div>
+                    <div class="letter" id="part">А</div>
+                    <div class="letter">Ф</div>
+                    <div class="letter" id="part">О</div>
+                    <div class="letter">У</div>
+                    <div class="letter">В</div>
+                    <div class="letter">Т</div>
+                    <div class="letter">Я</div>
+                    <div class="letter">Ж</div>
+                    <div class="letter">А</div>
+                    <div class="letter" id="part">В</div>
+                    <div class="letter">Ю</div>
+                    <div class="letter">Ч</div>
+                    <div class="letter">Е</div>
+                    <div class="letter">Р</div>
+                    <div class="letter">У</div>
+                    <div class="letter">И</div>
+                    <div class="letter" id="part">Б</div>
+                    <div class="letter" id="part">З</div>
+                    <div class="letter" id="part">А</div>
+                    <div class="letter" id="part">П</div>
+                    <div class="letter" id="part">А</div>
+                    <div class="letter" id="part">Д</div>
+                    <div class="letter">К</div>
+                    <div class="letter" id="part">О</div>
+                    <div class="letter">Б</div>
+                    <div class="letter">Э</div>
+                    <div class="letter">Н</div>
+                    <div class="letter">О</div>
+                    <div class="letter">Я</div>
+                    <div class="letter">Г</div>
+                    <div class="letter" id="part">Й</div>
+                 </div>
+            </div>
+        </div>
+        <div class="double3">
+            <div class="col2">
+                <div class="factscontainersecond">
+                    <img src="img/factsframe2.png" class="factsframesecond">
+                    <div class="text">
+                        <p>Основу обоих жанров составляют <br> струнные инструменты, призванные <br> либо имитировать человеческий <br> голос, либо задавать ритм танцу.</p>
+                    </div>
+                </div>
+                <div class="instructioncontainer">
+                    <img src="img/instructionframe.svg" class="instructionframe">
+                    <div class="instructiontitle">
+                        <h3>Лабиринт по дикому западу </h3>
+                    </div>
+                    <div class="instructiondescription">
+                        <p class="desk">Помоги кружку пройти путь, перетаскивай его <br>с помощью мышки</p>
+                        <p class="tab">Помоги кружку пройти путь, <br> перетаскивай его пальцем</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="labirintcontainer">
+            <div class="labirint">
+                <img src="img/lab.png" class="lab">
+                <img src="img/labv.png" class="lab mob">
+                <img src="img/ball.svg" class="ball"> 
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <img src="img/perekatipole.png" class="komok">
+        <div class="footercolumns">
+            <div class="group">
+                <p>Б25УКИ03</p>
+            </div>
+            <div class="name">
+                <p>Шарикова Варвара</p>
+            </div>
+        </div>
+    </footer>
+    <div class="popup" id="popup1">
+        <div class="popupcontent">
+            <div class="leftcontent">
+                <div class="eventtitle">
+                    <h3>Тур «Дикое ранчо»</h3>
+                </div>
+                <div class="about">
+                    <p>Тебя ждут:</p>
+                    <p>• Верховая езда по пересеченной местности</p>
+                    <p>• Перегон скота с инструкторами</p>
+                    <p>• Перетягивание лассо</p>
+                    <p>• Костер без спичек и ужин в казане</p>
+                    <p>• Вечерние байки у костра под гитару</p>
+                </div>
+            </div>
+            <div class="rightcontent">
+                <img src="img/card1.png">
+            </div>
+        </div>
+    </div>
+     <div class="popup" id="popup2">
+        <div class="popupcontent">
+            <div class="leftcontent">
+                <div class="eventtitle">
+                    <h3>Тур «Пороховая бочка»</h3>
+                </div>
+                <div class="about">
+                    <p>Тебя ждут:</p>
+                    <p>• Знакомство с револьвером и винтовкой</p>
+                    <p>• Дуэльная стрельба</p>
+                    <p>• Стрельба по тарелкам и банкам</p>
+                    <p>• Метание топоров</p>
+                    <p>• Посиделки у костра под гитару </p>
+                </div>
+            </div>
+            <div class="rightcontent">
+                <img src="img/card2.png">
+            </div>
+        </div>
+    </div>
+     <div class="popup" id="popup3">
+        <div class="popupcontent">
+            <div class="leftcontent">
+                <div class="eventtitle">
+                    <h3>Тур «West классика»</h3>
+                </div>
+                <div class="about">
+                    <p>Тебя ждут:</p>
+                    <p>• Пешие прогулки по живописным местам</p>
+                    <p>• Палаточный лагерь с ночевкой</p>
+                    <p>• Рыбалка и купание в реке</p>
+                    <p>• Сбор грибов и ягод</p>
+                    <p>• Рассказы от бывалых ковбоев</p>
+                </div>
+            </div>
+            <div class="rightcontent">
+                <img src="img/card3.png">
+            </div>
+        </div>
+    </div>
+     <div class="popup" id="popup4">
+        <div class="popupcontent">
+            <div class="leftcontent">
+                <div class="eventtitle">
+                    <h3>Тур «Экстремал»</h3>
+                </div>
+                <div class="about">
+                    <p>Тебя ждут:</p>
+                    <p>• Сплав по горной реке</p>
+                    <p>• Скалолазание</p>
+                    <p>• Ночная прогулка без фонариков</p>
+                    <p>• Охота на дичь</p>
+                    <p>• Тихий вечер под потрескивание костра</p>
+                </div>
+            </div>
+            <div class="rightcontent">
+                <img src="img/card4.png">
+            </div>
+        </div>
+    </div>
+     <div class="popup" id="popup5">
+        <div class="popupcontent">
+            <div class="leftcontent">
+                <div class="eventtitle">
+                    <h3>Тур «Ковбой»</h3>
+                </div>
+                <div class="about">
+                    <p>Тебя ждут:</p>
+                    <p>• Уход за лошадьми и работа в седле</p>
+                    <p>• Ковка подков</p>
+                    <p>• Ночевки в деревянных домиках</p>
+                    <p>• Секретный рецепт приготовления бурбона</p>
+                    <p>• Живая кантри музыка</p>
+                </div>
+            </div>
+            <div class="rightcontent">
+                <img src="img/card5.png">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

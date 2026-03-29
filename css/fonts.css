@@ -1,0 +1,12 @@
+@font-face {
+    src: url("../fonts/KyivTypeSerif-VarGX.ttf") format("truetype"); 
+    font-family: "KyivTypeSerif";
+} 
+@font-face {
+    src: url("../fonts/PT_Sans-Web-Regular.ttf") format("truetype"); 
+    font-family: "PTSansRegular";
+}
+@font-face {
+    src: url("../fonts/Kaliningrad_Historical_G_1.ttf") format("truetype"); 
+    font-family: "Kaliningrad";
+}

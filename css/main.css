@@ -1,0 +1,794 @@
+body {
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url('../img/bg.png');
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+}
+.header{
+    margin: 0 1vw;
+}
+.newsnumber{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 1vw 1.5vw 1vw;
+    font-size: 2.4vw;
+    font-family: 'PTSansRegular';
+}
+.titlebox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 13vw;
+    padding: 2.5vw 6vw 0vw 6vw;
+    border: 0.35vw solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: none;
+    border-bottom: none;
+}
+.titlebox{
+    border: 0.35vw solid #000;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 5vw;
+}
+.cactusleft, .cactusright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.cactusleft img, .cactusright img{
+    margin: 1vw 0 0.5vw 0;
+    height: 17vw;
+}
+.sections {
+    margin: 0 1vw;
+    display: flex;
+    justify-content: center;
+}
+
+.cardscontainer {
+    position: relative;
+    width: 31.5vw;
+}
+.cardframe {
+    width: 31.5vw;
+}
+.col{
+    flex-direction: column;
+}
+.double1{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+.double2{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+.double3{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+.col2{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+.triple{
+    display: flex;
+}
+.cardtext {
+    position: absolute;
+    top: 2vw;
+    left: 3vw;
+    font-size: 2vw;
+    z-index: 2;
+    font-family: 'PTSansRegular';
+}
+.cardswrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2vw;
+}
+.cardimage {
+    position: absolute;
+    width: 7.5vw;
+    animation: cards 4s ease-in-out infinite;
+    transform-origin: center center;
+}
+.cardimage:hover {
+    cursor: pointer;
+    animation-play-state: paused; 
+    width: 8vw;
+}
+.card1 {
+    top: 27%;
+    left: 17%;
+    --base-rotation: -18deg;
+    z-index: 1;
+}
+.card2 {
+    top: 24%;
+    left: 39%;
+    --base-rotation: 10deg;
+    z-index: 2;
+}
+.card3 {
+    top: 28%;
+    left: 56%;
+    --base-rotation: -14deg;
+    z-index: 3;
+}
+.card4 {
+    top: 53%;
+    left: 24%;
+    --base-rotation: 19deg;
+    z-index: 4;
+}
+.card5 {
+    top: 53%;
+    left: 46%;
+    --base-rotation: -22deg;
+    z-index: 5;
+}
+.attentionframe{
+    width: 31vw;
+    z-index: 0;
+}
+.attentioncontainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 31vw;
+    height: 60%;
+    text-align: center;
+}
+.attentiontitle {
+    position: absolute;
+    top: 13%;
+    font-size: 3.8vw;
+    padding-left: 1vw;
+    font-family: 'KyivTypeSerif';
+}
+.attentiontext {
+    position: absolute;
+    top: 35%;
+    font-size: 1.6vw;
+    line-height: 2.5vw;
+    font-family: 'PTSansRegular';
+}
+.horsecontainer {
+    position: relative;
+    display: flex;
+    width: 31vw;
+    height: 60%;
+}
+.horseframe{
+    width: 31vw;
+    z-index: 1;
+}
+.horseimage {
+    position: absolute;
+    left: 1.5%;
+    bottom: 2.5%;
+    width: 20vw;
+    z-index: 0;
+}
+.dialogimage {
+    z-index: 1;
+    width: 18vw;
+    cursor: pointer;
+    touch-action: manipulation; 
+    user-select: none;
+}
+.dialogcontainer{
+    position: absolute;
+    right: 3%;
+    top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dialogcontainer p {
+    position: absolute;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    top: 25%;
+    color: #000;
+    font-size: 1.5vw;
+    z-index: 1;
+}
+.factscontainer {
+    width: 31.5vw;
+    position: relative;
+    margin: 2.5vw 2vw 1.5vw 0;
+}
+.facts{
+    width: 31.5vw;
+}
+.factsframe{
+    width: 100%;
+}
+.factscontainer p {
+    position: absolute;
+    top: 13%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    font-family:'PTSansRegular';
+    line-height: 2.5vw;
+    font-weight: 400;
+    font-size: 1.8vw;
+    color: #000;
+}
+.shootingcontainer {
+    position: relative;
+    border: 0.3vw solid #000;
+    height: 17vw;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 1vw 0;
+    font-family: 'Kaliningrad';
+}
+.bullet{
+    position: absolute;
+    width: 2.5vw;
+    top: 34%;
+    left: 40%;
+    opacity: 0;
+    z-index: 4;
+}
+.bullet-animation {
+    animation: bullet 0.25s linear;
+}
+@keyframes bullet {
+    0% {
+        left: 40%;
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        left: 80%;
+        opacity: 0;
+    }
+}
+.hole{
+    position: absolute;
+    width: 1.5vw;
+    transition: 0.25s ease-in-out;
+}
+.hole1{
+    right: 21%;
+    top: 17%;
+    opacity: 0;
+}
+.hole2{
+    right: 3%;
+    top: 63%;
+    opacity: 0;
+}
+.hole3{
+    right: 17.5%;
+    top: 56%;
+    opacity: 0;
+}
+.hole4{
+    right: 14%;
+    top: 46%;
+    opacity: 0;
+}
+.labelgun {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2vw;
+    margin: 0.5vw 0 0 1.5vw;
+}
+.gun {
+    position: absolute;
+    top: 28%;
+    left: 4%;
+}
+.revolver{
+    width: 24vw;
+    cursor: pointer;
+}
+.target {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+.target img{
+    width: 16vw;
+}
+.counter {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0.5vw;
+    font-size: 1.5vw;
+}
+.sections_second {
+  display: flex;
+}
+.wantedcontainer{
+    width: 31vw;
+    border: 0.25vw solid #000;
+}
+.wantedtitle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Kaliningrad';
+    font-size: 4.2vw;
+    padding: 0.5vw;
+    color: #A90B0B;
+}
+.wanted{
+    justify-content: center;
+    margin-top: -1.5vw;
+    position: relative;
+    overflow: hidden;
+}
+.wanted-anim{
+    animation: wanted 3.5s ease-in forwards;
+}
+@keyframes wanted {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(-8vw);
+        opacity: 1;
+    }
+    70% {
+        transform: translateX(100vw); 
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+}
+.money {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    z-index: -1;
+    opacity: 0;
+}
+.wantedimg{
+    width: 30vw;
+    cursor: pointer;
+}
+
+.descrition, .reward{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    color: #000;
+}
+.descrition{
+    font-family: 'PTSansRegular';
+    font-size: 1.2vw;
+    line-height: 1.6vw;
+}
+.reward{
+    padding: 1vw 0 1vw 0;
+    font-family: 'Kaliningrad';
+    font-size: 6.5vw;
+}
+.questioncontainer{
+    width: 31vw;
+    margin: 2vw 0;
+    border: 0.25vw solid #000;
+}
+
+.questiontitle{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.6vw;
+    margin: 0.4vw 0.4vw 0 0.4vw;
+    padding: 2vw 0 2vw 1vw;
+    border: 0.2vw solid #000;
+    border-bottom: none;
+}
+.questiondescription{
+    display: flex;
+    font-family: 'PTSansRegular';
+    justify-content: center;
+    font-size: 2vw;
+    margin: 0 0.4vw 0 0.4vw;
+    padding: 3vw 0 3vw 1vw;
+    border: 0.2vw solid #000;
+    border-bottom: none;
+}
+.answercontainer{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PTSansRegular';
+    font-size: 2vw;
+    margin: 0 0.4vw 0.4vw 0.4vw;
+    padding: 2vw 1.5vw 2vw 1vw;
+    border: 0.2vw solid #000;
+}
+.answer{
+    color: #000;
+}
+.answerinput {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 2vw;
+    width: 17vw;
+    height: 2vw;
+}
+.tourscontainer{
+    width: 31.5vw;
+    height: 100%;
+    background-color: #FFD000;
+    border-radius: 1vw;
+}
+.tourscontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'KyivTypeSerif';
+    line-height: 3.5vw;
+}
+.tourscontent h3{
+    padding-top: 1.2vw;
+    font-size: 2.8vw;
+    font-weight: 500;
+}
+.tourscontent p{
+    font-size: 2.5vw;
+}
+.check{
+    position: relative;
+    border: 0.2vw solid #000;
+    height: 2vw;
+    width: 2vw;
+}
+.correct{
+    position: absolute;
+    width: 1.8vw;
+    top: 11%;
+    left: 5%;
+    opacity: 0;
+}
+.wrong{
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    width: 1.7vw;
+    opacity: 0;
+}
+.row2{
+    display: flex;
+    flex-direction: column;
+    width: 32vw;
+}
+.instructorcontainer{
+    padding: 1vw 0;
+    width: 32vw;
+    position: relative;
+}
+.instructorframe{
+    width: 32vw;
+}
+.instructorcontainer p, .phone{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    line-height: 3vw;
+}
+.instructorcontainer p{
+    top: 17%;
+    left: 0;
+    font-family:'PTSansRegular';
+    font-size: 2.5vw;
+    color: #000;
+}
+.phone{
+    top: 62%;
+    left: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    color: #1B1FA3;
+}
+.bootcontainer{
+    position: relative;
+    padding-top: 0.5vw;
+    width: 32vw;
+}
+.bootframe{
+    width: 32vw;
+}
+.bootcontainer p{
+    position: absolute;
+    line-height: 3vw;
+    top: 8%;
+    left: 8%;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.8vw;
+    color: #000;
+}
+.boot{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 16vw;
+    top: 46%;
+    left: 55%;
+}
+.shpcontainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.shpora {
+    position: absolute;
+    width: 4vw;
+    cursor: grab;
+    pointer-events: auto;
+    top: 77%; 
+}
+.shpora1 { left: 13%; }
+.shpora2 { left: 33%; }
+.shpora3 { left: 56%; }
+.shpora4 { left: 75%; }
+
+.wordscontainer {
+    width: 30vw;
+    padding: 4vw 0 0 0;
+    position: relative;
+}
+.wordsframe {
+    width: 30vw;
+    z-index: 0;
+}
+
+.wordtitle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 30vw;
+    top: 20%;
+    font-family:'KyivTypeSerif';
+    font-weight: 600;
+    font-size: 2.4vw;
+}
+.restartbutton{
+    position: absolute;
+    top: 21%;
+    right: 4%;
+}
+.restart{
+    width: 2.5vw;
+    cursor: pointer;
+}
+.letters-grid {
+    position: absolute;
+    top: 27.5%;
+    left: 1%;
+    width: 29.4vw;
+    height: 29vw;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.2vw solid #000000;
+    font-size: 2.6vw;
+    font-family: 'PTSansRegular';
+    color: #000;
+}
+
+.letter:not(:nth-child(7n)) {
+    border-right: none;
+}
+.letter:not(:nth-last-child(-n+7)) {
+    border-bottom: none;
+}
+.letter:nth-child(7n+1) {
+    border-left: none;
+}
+.letter:nth-child(7n) {
+    border-right: none;
+}
+#part{
+    cursor: pointer;
+}
+.letter.special {
+    background-image: url('../img/backgroundwords.png');
+    background-size: 100%;
+    color: white;
+    z-index: -1;
+}
+.factscontainersecond {
+    width: 32vw;
+    margin-top: -0.5vw;
+    position: relative;
+}
+.factsframesecond{
+    width: 32vw;
+}
+.text {
+    position: absolute;
+    top: 14%;
+    left: 0;
+    margin: 0;
+    text-align: center;
+    width: 32vw;
+    line-height: 1.7vw;
+    font-family:'KyivTypeSerif';
+    font-size: 1.3vw;
+    color: #000;
+}
+.instructioncontainer{
+    padding-top: 1.5vw;
+    position: relative;
+}
+.instructionframe{
+    width: 26.5vw;
+    padding-right: 3.5vw;
+}
+.instructiontitle, .instructiondescription{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 26.5vw;
+}
+.instructiontitle {
+    top: 48%;
+    font-family:'Kaliningrad';
+    font-weight: 500;
+    font-size: 2.2vw;
+}
+
+.instructiondescription {
+    top: 70%;
+    font-family:'PTSansRegular';
+    text-align: center;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+}
+.labirintcontainer{
+    width: 100%;
+}
+.lab{
+    width: 100%;
+    margin-top: -0.5vw;
+    pointer-events: none;
+}
+.labirint{
+    position: relative;
+}
+.tab{
+    display: none;
+}
+.mob{
+    display: none;
+}
+.desk{
+    display: block;
+}
+.ball {
+    position: absolute;
+    top: 0;
+    right: 2.5%;
+    width: 1.3vw;
+    z-index: 2; 
+    cursor: grab;
+}
+.over{
+    width: 1.8vw;
+}
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    position: relative;
+    overflow: hidden;
+}
+.komok{
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    width: 9vw;
+}
+.footercolumns {
+    display: flex;
+    justify-content: space-between;
+    padding: 8vw 2vw 4vw 2vw;
+    z-index: 5;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.popupcontent {
+    width: 70%; 
+    background-color: white;
+    border-radius: 3vw;
+    position: relative;
+    height: 36vw;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
+}
+.leftcontent{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 0 0 3vw;
+}
+.leftcontent h3{
+    font-family: 'Kaliningrad';
+    font-size: 4vw;
+    padding-bottom: 5vw;
+}
+.leftcontent p{
+    font-family: 'PTSansRegular';
+    font-size: 1.5vw;
+    line-height: 2vw;
+}
+.rightcontent{
+    display: flex;
+    align-items: center;
+    padding-right: 2vw;
+}
+.rightcontent img{
+    width: 21vw;
+    height: auto;
+}

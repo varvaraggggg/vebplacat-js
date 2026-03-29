@@ -1,0 +1,967 @@
+@media screen and (min-width: 415px) and (max-width: 768px)  {
+    .header{
+        margin: 0 2vw;
+    }
+    .newsnumber{
+        padding: 2vw 0.5vw 2vw 0.5vw;
+        font-size: 3vw;
+    }
+    .title{
+        font-size: 13vw;
+        padding: 0 6vw 0vw 6vw;
+        border: none;
+    }
+    .cactusleft img, .cactusright img{
+        margin: 1.5vw 0 2vw 0;
+        height: 18vw;
+    }
+    .sections{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 2.5vw;
+    }
+    .double1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .row, .row2{
+        display: contents;
+    }
+    .containers{
+        display: contents;
+    }
+    .cardscontainer {
+        width: 45vw;
+        padding-right: 0;
+        order: 1;
+    }
+    .cardswrapper {
+        width: 45vw;
+    }
+    .cardframe {
+        width: 45vw;
+    }
+    .cardtext {
+        top: 2vw;
+        left: 3vw;
+        font-size: 3.2vw;
+    }
+    .cardimage {
+        width: 13vw;
+    }
+    .cardimage:hover {
+        width: 13.5vw;
+    }
+    .card1 {
+        top: 25%;
+        left: 22%;
+        z-index: 1;
+    }
+    .card2 {
+       display: none;
+    }
+    .card3 {
+        top: 24%;
+        left: 45%;
+        z-index: 3;
+        --base-rotation: 8deg;
+    }
+    .card4 {
+        top: 51%;
+        left: 25%;
+        z-index: 5;
+        --base-rotation: 15deg;
+    }
+    .card5 {
+        top: 48%;
+        left: 50%;
+        z-index: 4;
+    }
+    .factscontainer {
+        width: 45vw;
+        margin: 5vw 0 0 0;
+    }
+    .facts{
+        width: 45vw;
+        order: 2;
+    }
+    .factscontainer p {
+        top: 23%;
+        font-size: 3vw;
+        line-height: 3.5vw;
+    }
+    .attentionframe{
+        width: 46.5vw;
+    }
+    .attentioncontainer {
+        width: 46.5vw;
+        order: 3;
+    }
+    .attentiontitle {
+        top: 13%;
+        font-size: 6vw;
+    }
+    .attentiontext{
+        font-size:  2.7vw;
+        line-height: 3.5vw;
+    }
+    .tab{
+        display: block;
+    }
+    .desk{
+        display: none;
+    }
+    .horsecontainer {
+        width: 46.5vw;
+        order: 4;
+    }
+    .horseframe{
+        width: 46.5vw;
+    }
+    .horseimage {
+        left: 1.5%;
+        bottom: 2.5%;
+        width: 31vw;
+    }
+    .dialogcontainer{
+        top: 5%;
+    }
+    .dialogimage {
+        width: 25vw;
+    }
+    .dialogcontainer p {
+        top: 25%;
+        font-size: 2vw;
+    }
+    .shootingcontainer{
+        order: 5;
+        margin: 2vw 0;
+        height: 23vw;
+        border: 0.35vw solid #000;
+    }
+    .revolver{
+        width: 34vw;
+    }
+    .labelgun {
+        font-size: 3.5vw;
+        margin: 0.5vw 0 0 1.5vw;
+    }
+    .target img{
+        width: 22vw;
+    }
+    .counter {
+        font-size: 3vw;
+    }
+    .hole{
+        width: 3vw;
+    }
+    .hole1{
+        right: 20%;
+        top: 17%;
+    }
+    .hole2{
+        right: 3%;
+        top: 63%;
+    }
+    .hole3{
+        right: 16%;
+        top: 56%;
+    }
+    .hole4{
+        right: 13%;
+        top: 44%;
+    }
+    .wantedcontainer{
+        order: 6;
+        width: 45vw;
+        height: 74vw;
+        border: 0.35vw solid #000;
+    }
+    .wantedtitle{
+        font-size: 6vw;
+    }
+    .wantedimg{
+        width: 45vw;
+    }
+    .money {
+        top: 50%;
+        width: 30vw;
+    }
+    .descrition{
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+    .reward{
+        padding: 1vw 0 1vw 0;
+        font-size: 10vw;
+    }
+    .double2{
+        order: 7;
+        flex-direction: column;
+    }
+    .instructorcontainer{
+        height: 15vw;
+        padding: 2vw 0 1vw 0;
+        width: 46vw;
+    }
+    .instructorframe{
+        width: 46vw;
+    }
+    .instructorcontainer p, .phone{
+        width: 44vw;
+        line-height: 3vw;
+        font-size: 3.5vw;
+    }
+    .instructorcontainer p{
+        top: 29%;
+        left: 0;
+    }
+    .phone{
+        top: 75%;
+        left: 0;
+    }
+    .wordscontainer {
+        width: 46vw;
+        padding: 5vw 0 0 0;
+    }
+    .wordsframe {
+        width: 46vw;
+    }
+    .letter {
+        border: 0.3vw solid #000000;
+        font-size: 4vw;
+    }
+    .letters-grid {
+        top: 25%;
+        left: 1%;
+        width: 45.5vw;
+        height: 45.5vw;
+    }
+    .wordtitle{
+        width: 44.5vw;
+        top: 18%;
+        left: 4%;
+        font-size: 3.4vw;
+    }
+    .restartbutton{
+        top: 18%;
+        right: 4%;
+    }
+    .restart{
+        width: 4vw;
+    }
+    .double3 {
+        order: 8;
+    }
+    .factscontainersecond {
+       width: 45.5vw;
+       height: 16vw;
+       margin-top: -60vw;
+    }
+    .factsframesecond {
+        width: 45.5vw;
+        position: relative;
+    }
+    .factsframe{
+        height: 26vw;
+    }
+    .text {
+        position: absolute;
+        top: 18%;
+        left: 0;
+        width: 45.5vw;
+        line-height: 2.3vw;
+        font-size: 2vw;
+    }
+    .questioncontainer{
+       order: 9;
+       width: 45vw;
+       margin-top: -60vw;
+       height: 41vw;
+       border: 0.3vw solid #000;
+    }
+    .questiontitle{
+        display: flex;
+        font-size: 4vw;
+        margin: 0.8vw 0.8vw 0 0.8vw;
+        padding: 4vw 0 4vw 2vw;
+        border: 0.3vw solid #000;
+        border-bottom: none;
+    }
+    .questiondescription{
+        font-size: 3vw;
+        margin: 0 0.8vw 0 0.8vw;
+        padding: 5vw 0 5vw 1vw;
+        border: 0.3vw solid #000;
+        border-bottom: none;
+    }
+    .answercontainer{
+        font-size: 3.2vw;
+        margin: 0 0.8vw 0.8vw 0.8vw;
+        padding: 3vw 1.5vw 3vw 1vw;
+        border: 0.3vw solid #000;
+    }
+    .answer{
+        color: #000;
+        padding-top: 0.5vw;
+    }
+    .check{
+        position: relative;
+        border: 0.3vw solid #000;
+        height: 3.5vw;
+        width: 3.5vw;
+    }
+    .correct{
+        width: 3.2vw;
+    }
+    .wrong{
+        width: 3vw;
+    }
+    .answerinput {
+        font-size: 3vw;
+    }
+    .col2{
+        display: contents;
+    }
+    .bootcontainer{
+        width: 46vw;
+        order: 10;
+        margin-top: 1vw;
+    }
+    .bootframe{
+        width: 46vw;
+    }
+    .bootcontainer p{
+        font-size: 2.5vw;
+    }
+    .boot{
+        width: 20vw;
+    }
+    .shpcontainer{
+        width: 45vw;
+        gap: 6.5vw;
+    }
+    .shpora1 { left: 15%; }
+    .shpora2 { left: 42%; }
+    .shpora4 { left: 72%; }
+
+    .shpora{
+        width: 6.5vw;
+    }
+    .shpora3{
+        display: none;
+        top: 75%; 
+    }
+    .tourscontainer{
+        order: 12;
+        width: 46vw;
+        height: 11vw;
+        margin-top: -15vw;
+        margin-right: 5vw;
+        border-radius: 1.5vw;
+    }
+    .tourscontent{
+        line-height: 5vw;
+        margin: 0.5vw 0;
+    }
+    .tourscontent h3{
+        padding-top: 0;
+        font-size: 3.5vw;
+    }
+    .tourscontent p{
+        font-size: 3vw;
+    }
+    .col2{
+        justify-content: start;
+    }
+    .instructioncontainer{
+        padding-top: 2vw;
+        padding-left: 1vw;
+    }
+    .instructionframe{
+        width: 41vw;
+        padding-right: 0;
+    }
+    .instructiontitle, .instructiondescription{
+        width: 41vw;
+    }
+    .instructiondescription {
+        top: 70%;
+        font-size: 2vw;
+        line-height: 2.4vw;
+    }
+    .instructiontitle {
+        top: 47%;
+        font-size: 3.6vw;
+    }
+    .ball{
+        right: 2.5%;
+        width: 2vw;
+    }
+    .over{
+        width: 3vw;
+    }
+    .labirintcontainer {
+        order: 12;
+        width: 100%;
+    }
+    .footer{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 3.5vw;
+    }
+    .footercolumns{
+        padding-top: 15vw;
+    }
+    .komok{
+        width: 13vw;
+    }
+    .mob{
+        display: none;
+    }
+    .title.desk{
+        display: block;
+        align-self: center;
+    }
+    .popupcontent {
+        width: 85%; 
+        height: 50vw;
+    }
+    .rightcontent img{
+        width: 26vw;
+        height: auto;
+    }
+    .rightcontent{
+        padding: 0 6vw;
+    }
+    .leftcontent{
+        padding: 6vw 0 0 4vw;
+    }
+    .leftcontent h3{
+        font-size: 5vw;
+        padding-bottom: 7vw;
+    }
+    .leftcontent p{
+        font-family: 'PTSansRegular';
+        font-size: 2.5vw;
+        line-height: 3.2vw;
+    }
+} 
+@media screen and (min-width: 1px) and (max-width: 414px)  {
+
+    .desk{
+        display: none;
+    }
+    .mob{
+        display: block;
+    }
+    .tab{
+        display: block;
+    }
+    .newsnumber {
+        display: contents;
+    }
+    .header{
+        margin: 0 4vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .news {
+        margin: 14vw 0 5vw 0;
+        order: 1;
+        text-align: center;
+        width: 100%;
+        font-size: 5.5vw;
+    }
+    .title {
+        font-size: 23vw;
+        padding: 8vw 0;
+        border: none;
+        text-align: center;
+        width: 100%;
+        order: 2;
+        border-top: 0.8vw solid #000;
+        border-bottom: 0.8vw solid #000;
+    }
+    .titlebox {
+        display: flex;
+        justify-content: space-between;
+        order: 4;
+        border: none;
+    }
+    .number {
+        order: 3; 
+        text-align: center;
+        width: 100%;
+        margin: 6vw 0 3vw 0;
+        font-size: 5vw;
+    }
+    .cactusleft,.cactusright {
+        display: flex;
+    }
+    .cactusleft {
+        order: 4;
+    }
+    .cactusright {
+        order: 6;
+    }
+    .cactusleft img, .cactusright img {
+        margin: 1vw;
+        height: 42vw;
+    }
+    .line {
+        width: 1.8vw;
+        height: 38vw;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        order: 5;
+        margin: 0 10vw;
+    }
+    .row, .row2, .col, .containers, .col2,
+    .double1, .double2, .double3{
+        display: contents;
+    }
+    .sections{
+        margin: 0 4vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .cardscontainer, .cardframe{
+       width: 100%;
+       order: 7;
+    }
+    .cardtext {
+        top: 5vw;
+        left: 6.5vw;
+        font-size: 6.5vw;
+    }
+    .cardimage {
+        width: 27vw;
+        transform-origin: center;
+    }
+    .cardimage:hover {
+        width: 28vw;
+    }
+    .card1, .card3 {
+        display: none;
+    }
+    .card2 {
+        top: 22%;
+        left: 37%;
+        --base-rotation: 11deg;
+        z-index: 2;
+    }
+    .card4 {
+        top: 42%;
+        left: 19%;
+        --base-rotation: -20deg;
+        z-index: 4;
+    }
+    .card5 {
+        top: 42%;
+        left: 47%;
+        --base-rotation: 16deg;
+        z-index: 5;
+    }
+    .attentioncontainer{
+        margin-top: 3vw;
+    }
+    .attentioncontainer, .attentionframe{
+        order: 8;
+        width: 100%;
+    }
+    .attentiontitle {
+        top: 12%;
+        font-size: 13vw;
+    }
+    .attentiontext{
+        font-size:  5.5vw;
+        line-height: 7vw;
+    }
+    .horsecontainer{
+        margin-top: 4vw;
+    }
+    .horsecontainer, .horseframe{
+        order: 9;
+        width: 100%;
+    }
+    .horseimage {
+        width: 62vw;
+    }
+    .dialogcontainer{
+        top: 5%;
+    }
+    .dialogimage {
+        width: 51vw;
+        z-index: 2;
+    }
+    .dialogcontainer p {
+        top: 24%;
+        font-size: 4.5vw;
+        z-index: 3;
+    }
+    .facts, .factscontainer{
+        order: 10;
+        margin-top: 3vw;
+        width: 100%;
+    }
+    .factscontainer p {
+        top: 20%;
+        font-size: 6vw;
+        line-height: 6vw;
+    }
+    .shootingcontainer{
+        order: 11;
+        width: 100%;
+        height: 170vw;
+        border: 0.9vw solid #000;
+        margin-top: 4vw;
+    }
+    .gun {
+        top: 25%;
+    }
+    .bullet{
+        top: 50%;
+        left: 51%;
+        opacity: 0;
+        z-index: 4;
+        width: 11vw;
+        transform: rotate(90deg);
+    }
+    .bullet-animation {
+        animation: bullet 0.25s linear;
+    }
+
+    @keyframes bullet {
+        0% {top: 50%; opacity: 0;}
+        10% {opacity: 1;}
+        90% {opacity: 1;}
+        100% {top: 70%;opacity: 0;}
+    }
+    .hole{
+        position: absolute;
+        width: 8vw;
+    }
+    .hole1{
+        right: 21%;
+        top: 87%;
+        opacity: 0;
+    }
+    .hole2{
+        right: 75%;
+        top: 83%;
+        opacity: 0;
+    }
+    .hole3{
+        right: 33%;
+        top: 73%;
+        opacity: 0;
+    }
+    .hole4{
+        right: 44%;
+        top: 77%;
+        opacity: 0;
+    }
+    .labelgun {
+        top: 1%;
+        left: 17%;
+        font-size: 8.5vw;
+        margin: 0.5vw 0 0 1.5vw;
+    }
+    .gun {
+        top: 20%;
+        left: 5%;
+        transform: rotate(90deg);
+    }
+    .revolver{
+        width: 75vw;
+    }
+    .target {
+        right: 16%;
+        top: 60%;
+        transform: rotate(90deg);
+    }
+    .target img{
+        width: 62vw;
+    }
+    .counter {
+        bottom: 1%;
+        left: 18%;
+        margin-bottom: 0.5vw;
+        font-size: 5.5vw;
+    }
+    .instructorcontainer, .instructorframe{
+        order: 12;
+        width: 100%;
+        margin-top: 2vw;
+    }
+    .instructorcontainer p, .phone{
+        font-size: 6.5vw;
+    }
+    .instructorcontainer p{
+        line-height: 8vw;
+    }
+    .wordscontainer, .wordsframe{
+        order: 13;
+        width: 100%;
+    }
+    .phone{
+        top: 70%;
+    }
+    .wordtitle{
+        width: 100%;
+        top: 15%;
+        font-size: 7.5vw;
+    }
+    .letters-grid {
+        top: 23%;
+        left: 1%;
+        width: 90vw;
+        height: 89vw;
+    }
+    .restartbutton{
+        top: 15%;
+        right: 5%;
+    }
+    .restart{
+        width: 9vw;
+    }
+    .letter {
+        border: 0.6vw solid #000000;
+        font-size: 9vw;
+    }
+    .factscontainersecond, .factsframesecond{
+        order: 14;
+        width: 100%;
+        padding-top: 2vw;
+    }
+    .text {
+        top: 29%;
+        width: 100%;
+        font-size: 4vw;
+        line-height: 4.5vw;
+    }
+    .bootcontainer{
+        order: 15;
+        width: 100%;
+        margin-top: 3vw;
+    }
+    .bootframe{
+        width: 100%;
+    }
+    .bootcontainer p{
+        font-size: 5vw;
+    }
+    .boot{
+        width: 42vw;
+    }
+    .shpcontainer{
+        width: 100%;
+        gap: 15vw;
+    }
+    .shpora{
+        width: 14vw;
+        top: 75%;
+    }
+    .shpora1 { left: 15%; }
+    .shpora2 { left: 42%; }
+    .shpora4 { left: 72%; }
+
+    .shpora3{
+        display: none;
+    }
+    .wantedcontainer{
+        margin-top: 3vw;
+        order: 16;
+        width: 99%;
+        border: 0.8vw solid #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wantedtitle{
+        font-size: 12.5vw;
+    }
+    .wantedimg{
+        width: 92vw;
+    }
+    @keyframes wanted {
+        0% {transform: translateX(0); opacity: 1;}
+        50% {transform: translateX(-25vw); opacity: 1;}
+        70% {transform: translateX(100vw); opacity: 1;}
+        100% {transform: translateX(100vw);opacity: 0;}
+    }
+    .money {
+        top: 55%;
+        left: 50%;
+        width: 60vw;
+    }
+    .descrition{
+        font-size: 4vw;
+        line-height: 5.5vw;
+    }
+    .reward{
+        padding: 1vw 0 2vw 0;
+        font-size: 20vw;
+    }
+    .questioncontainer{
+        margin-top: 5vw;
+        order: 17;
+        width: 99%;
+        border: 0.8vw solid #000;
+    }
+    .questiontitle{
+        display: flex;
+        font-size: 8vw;
+        margin: 1.5vw 1.5vw 0 1.5vw;
+        padding: 6vw 0 6vw 3vw;
+        border: 0.8vw solid #000;
+        border-bottom: none;
+    }
+    .questiondescription{
+        font-size: 6vw;
+        line-height: 9vw;
+        margin: 0 1.5vw 0 1.5vw;
+        padding: 6vw 0 6vw 1vw;
+        border: 0.8vw solid #000;
+        border-bottom: none;
+    }
+    .answercontainer{
+        font-size: 6vw;
+        margin: 0 1.5vw 1.5vw 1.5vw;
+        padding: 6vw 1.5vw 6vw 3vw;
+        border: 0.8vw solid #000;
+    }
+    .answer{
+        color: #000;
+        padding-top: 0.5vw;
+    }
+    .check{
+        position: relative;
+        border: 0.7vw solid #000;
+        height: 6.5vw;
+        width: 6.5vw;
+        margin-right: 1vw;
+    }
+    .correct{
+        width: 6vw;
+    }
+    .wrong{
+        width: 5.5vw;
+    }
+    .answerinput {
+        font-size: 5.5vw;
+        width: 40vw;
+        height: 6vw;
+    }
+    .tourscontainer{
+        width: 100%;
+        border-radius: 3vw;
+        order: 18;
+        margin-top: 3vw;
+    }
+    .tourscontent{
+        line-height: 9vw;
+        padding: 3vw 0;
+    }
+    .tourscontent h3{
+        padding-top: 0;
+        font-size: 8vw;
+    }
+    .tourscontent p{
+        font-size: 8vw;
+    }
+    .instructioncontainer{
+        order: 19;
+        width: 95%;
+        padding-left: 4.5vw;
+        margin-top: 3vw;
+    }
+    .instructionframe{
+        width: 100%;
+        padding-right: 0;
+    }
+    .instructiontitle, .instructiondescription{
+        width: 95%;
+    }
+    .instructiondescription {
+        top: 70%;
+        font-size: 3.7vw;
+        line-height: 4.5vw;
+    }
+    .instructiontitle {
+        top: 47%;
+        font-size: 6.5vw;
+    }
+    .labirintcontainer{
+        order: 20;
+        width: 100%;
+    }
+    .ball {
+        top: 2%;
+        left: 1%;
+        width: 4vw;
+    }
+    .over{
+        width: 5vw;
+    }
+    .lab{
+        display: none;
+    }
+    .lab.mob{
+        display: flex;
+    }
+    .footer{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 4vw;
+    }
+    .komok{
+        width: 15vw;
+    }
+    .footercolumns {
+        display: flex;
+        justify-content: space-between;
+        padding: 12vw 3vw 10vw 3vw;
+        z-index: 5;
+    }
+    .popupcontent {
+        width: 92%; 
+        height: 140vw;
+        border-radius: 6vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .eventtitle{
+        order: 1;
+        display: flex;
+        justify-content: center;
+    }
+    .rightcontent{
+        order: 2;
+        justify-content: center;
+    }
+    .about{
+        order: 3;
+        padding: 5vw 0 1vw 0;
+        width: 80%;
+        align-self: center;
+    }
+    .leftcontent{
+        display: contents;
+    }
+    .leftcontent h3{
+        font-size: 8vw;
+    }
+    .leftcontent p{
+        font-family: 'PTSansRegular';
+        font-size: 4vw;
+        line-height: 5.5vw;
+    }
+    .rightcontent img{
+        width: 45vw;
+        height: auto;
+    }
+}
